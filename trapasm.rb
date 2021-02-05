@@ -14,7 +14,7 @@ class Trapasm < Formula
   def install
     ENV.deparallelize  # if your formula fails when building in parallel
     # Remove unrecognized options if warned by configure
-    system "./configure", "--trapinc=/usr/local/share/trapcc/", "--trapdir=#{prefix}/share/trapcc/", *std_configure_args
+    system "./configure", "--trapinc=/usr/local/share/trap/", "--trapdir=#{prefix}/share/trap/", *std_configure_args
     system "make"
     system "make", "install"
     # system "cmake", ".", *std_cmake_args
