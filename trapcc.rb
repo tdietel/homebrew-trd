@@ -4,8 +4,8 @@
 class Trapcc < Formula
   desc ""
   homepage ""
-  url "https://alicetrd.web.cern.ch/download/src/trapcc-v0.8.5.tar.gz"
-  sha256 "9dde95f9e47378fd8e364337b068965dc55181c0b30f9800f05ac560cea3fb8c"
+  url "https://alicetrd.web.cern.ch/download/src/trapcc-v0.8.6.tar.gz"
+  sha256 "c5401aa63e176694ee3de627c167569a00fd6397cbb593ee9704b58ba84363b7"
   license "GPL-3.0-or-later"
 
   depends_on "cmake" => :build
