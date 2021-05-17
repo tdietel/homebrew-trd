@@ -4,8 +4,8 @@
 class Trapasm < Formula
   desc "TRAP Assembler for the ALICE TRD"
   homepage ""
-  url "https://alicetrd.web.cern.ch/download/src/trapasm-0.5.2.tar.gz"
-  sha256 "3056435c7b8f7d0256426d78fe6e94b1e12f3608cfbdce029ecf75afc6ef487c"
+  url "https://alicetrd.web.cern.ch/download/src/trapasm-0.6.tar.gz"
+  sha256 "74d1f44d2f7624fe2f5e7286d369d8c21dd000335438f81b1862807b2bb1f0c7"
   license ""
 
   depends_on "fpc" => :build
